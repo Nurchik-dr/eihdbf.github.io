@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../text/Roboto-VariableFont-wdth\,wght.ttf);
+    src: url(../Roboto-VariableFont-wdth\,wght.ttf);
 }
 
 
@@ -24,7 +24,7 @@ body {
 .container {
     width: 1440px;
     padding-bottom: 251px;
-    background-image: url(../assets/images/backgtound.jpg);
+    background-image: url(../images/backgtound.jpg);
 }
 .container a:hover {
     color: rgba(237, 255, 129, 0.4);
