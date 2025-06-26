@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../text/Roboto-VariableFont-wdth\,wght.ttf);
+}
+
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(234, 234, 228);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 1440px;
+    padding-bottom: 251px;
+    background-image: url(../assets/images/backgtound.jpg);
+}
+.container a:hover {
+    color: rgba(237, 255, 129, 0.4);
+}
+body, .container, .sidebar, .container-logo, footer {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header-promo {
+    width: 1170px;
+    height: 55px;
+    padding: 40px 135px 0px 135px;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+}
+.header-promo img {
+    width: 177px;
+    height: 31px;
+}
+.header-promo nav {
+    margin-left: 421px;
+    line-height: 100%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.header-promo nav a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-pricing {
+    margin: 0px 55px 0px 56px;
+}
+
+.nav-contact {
+    width: 79px;
+    height: 19px;
+    padding: 0px 32px 0px 55px;
+}
+
+.header-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 140px;
+    height: 55px;
+    border-radius: 116px;
+    border: 1px solid rgba(237, 255, 129, 0.4);
+    cursor: pointer;
+}
+
+.header-btn a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-title {
+    width: 1448px;
+    height: 339px;
+    margin-top: 167px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title h1 {
+    width: 1440px;
+    height: 42px;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.container-title h2 {
+    width: 1445px;
+    height: 105px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.container-title h3 {
+    color: rgba(255, 255, 255, 1);
+    width: 1448px;
+    height: 80px;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+  .container-button {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+.container-btn {
+    width: 243px;
+    height: 89px;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    border-radius: 192px;
+    background: linear-gradient(to right bottom, rgba(214, 255, 126, 1), rgba(100, 170, 40, 1));
+}
+
+.container-btn a {
+    width: 108px;
+    height: 23px;
+    padding: 27px 73px 28px 62px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+}
+
+
+.sidebar {
+    width: 1440px;
+    padding-bottom: 79px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-title {
+    margin-top: 73px;
+    margin-left: 135px;
+    width: 1170px;
+    height: 62px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+    color: rgba(37, 61, 50, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 50.431034088134766px;
+    height: 50px;
+}
+
+.icons {
+    width: 1207.103515625px;
+    margin-top: 57px;
+    margin-left: 135px;
+
+    display: flex;
+
+    align-items: flex-start;
+}
+
+.icons-promo {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 90px;
+}
+
+.icons-home {
+    white-space: nowrap;
+}
+
+.icons-home h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgba(37, 61, 50, 1);
+    margin-top: 40px;
+}
+
+.icons-home p {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(120, 132, 125, 1);
+}
+
+
+
+.container-logo {
+    width: 1440px;
+    height: 140px;
+    background-color: rgba(45, 72, 58, 1);
+    padding: 0% 3% 0% 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-promo {
+    width: 100%;
+    height: 35.19671630859375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+.footer-list {
+    display: flex;
+}
+
+.logo-markethink {
+    width: 197.9999237060547px;
+    height: 31.518945693969727px;
+    margin: 55px 0px 0px 145px;
+    color: rgba(37, 61, 50, 1);
+}
+
+.footer-logo p {
+    margin: 32.48px 0px 0px 145px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(120, 132, 125, 1);
+
+}
+
+.footer-icons {
+    width: 40px;
+    height: 40px;
+    margin: 30px 0px 0px 145px;
+    display: flex;
+    gap: 24px;
+}
+
+.footer-list-menu {
+    width: 117px;
+    height: 198px;
+    margin: 52px 0px 0px 172px;
+}
+
+.footer-list-services {
+    width: 232px;
+    height: 198px;
+    margin: 55px 0px 0px 103px;
+}
+
+.footer-list-company {
+    width: 175px;
+    height: 232px;
+    margin: 52px 0px 0px 27px;
+}
+
+.footer-list h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(37, 61, 50, 1);
+}
+
+.footer-list nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: rgba(120, 132, 125, 1);
+
+}
+
+.footer-list nav {
+    margin-top: 28px;
+}
+
+hr {
+    margin: 63px 125px 0px 145px;
+
+}
+
+.footer-promo a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+.footer-promo {
+    margin: 30px 0px 31px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-promo a {
+    color: rgba(120, 132, 125, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.footer-promo img {
+    width: 16px;
+    height: 16px;
+
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body, .container, .sidebar, .container-logo, footer {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-promo,
+.container-title,
+.sidebar-title,
+.icons,
+.logo-promo,
+.footer-list,
+.footer-promo {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* 📱 iPhone 12 (390px) */
+@media (max-width: 390px) {
+    .main {
+        max-width: 380px;
+    }
+    .header-promo,
+    .container-title,
+    .sidebar,
+    .container-logo,
+    footer {
+        padding: 10px;
+    }
+    .container-title h1 {
+        font-size: 24px;
+    }
+    .container-title h2 {
+        font-size: 36px;
+    }
+    .container-title h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .container-btn {
+        width: 90%;
+        height: auto;
+    }
+    .icons-promo {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .icons-home h1 {
+        font-size: 18px;
+    }
+    .icons-home p {
+        font-size: 14px;
+    }
+    .footer-promo {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* 📱 iPad Mini */
+@media screen and (min-width: 700px) and (max-width: 799px) {
+    .main {
+        max-width: 768px;
+    }
+    .container-title h1 {
+        font-size: 26px;
+    }
+    .container-title h2 {
+        font-size: 54px;
+    }
+    .container-title h3 {
+        font-size: 18px;
+    }
+    .container-btn {
+        width: 200px;
+        margin: 20px auto;
+    }
+    .icons-promo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .footer-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* 💻 iPad Air */
+@media screen and (min-width: 800px) and (max-width: 849px) {
+    .main {
+        max-width: 820px;
+    }
+    .container-title h1 {
+        font-size: 28px;
+    }
+    .container-title h2 {
+        font-size: 60px;
+    }
+    .container-title h3 {
+        font-size: 18px;
+    }
+    .container-btn {
+        width: 210px;
+        margin: 20px auto;
+    }
+    .icons-promo {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .footer-list {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+/* 💻 iPad Pro */
+@media screen and (min-width: 1020px) and (max-width: 1070px) {
+    .main {
+        max-width: 1024px;
+    }
+    .container-title h1 {
+        font-size: 30px;
+    }
+    .container-title h2 {
+        font-size: 66px;
+    }
+    .container-title h3 {
+        font-size: 20px;
+    }
+    .container-btn {
+        width: 220px;
+        margin: 20px auto;
+    }
+    .icons-promo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .footer-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+}
